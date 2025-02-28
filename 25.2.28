@@ -1,0 +1,83 @@
+#25.2.28
+#loops, lists
+for i am a g-dragon in range(10000):    #'i am a g-dragon'을 0부터 9999까지 나열
+  print(i am a g-dragon)
+
+for abc in range(0, 50, 2):
+  print(abc)                  #첫항이 0, 마지막항이 48인 공차가 2인 등차수열
+
+for defg in range(11, 40):
+  print(defg)                 #11부터 39까지 나열
+
+
+
+
+
+date=0
+while date<=31:
+  print(date)
+  date+=1      #date의 값이 31이하일땎지 나열
+
+
+count=input('enter number : ')            #count = 사용자가 입력한값
+if count <=30 :                           #count가 30이하일시 'you got it!'출력
+  print('you got it!')                  
+elif count==31:                           #count가 31일시 'you almost got it!'출력
+  print('you almost got it!')              
+else:
+  print('you've got wrong answer')        #count가 31초과일경우 'you've got wrong answer'출력
+
+def addnumbers(num1, num2):
+  sum=num1+num2
+  return sum                              #return은 시행후 얻은 결과물, 다른함수{예를들어 print()는 행위만 존재하고 얻는 결과는없다(이는 함수의 입장에서 해석한결과)}
+
+def aaa(x, y):
+  y=x*z-10
+  return z
+b=aaa(10, 100)
+print(b) = 11                             #하지만 return대신 print(z)를 사용한다면 print(b)의 값은 none이 된다. 또한 b=aaa(10,100)의 시행결과가 11이 나온다내가 이해한바로는 새로운 함수 aaa()를 설정하고 return이라는 명령어로 aaa()함수가 새로운 값을 할당하는 기능을 가능하게 한다
+
+
+#list, list=['zzz', 11, 22] 등 타입에 관계없음 첫번째=0
+list1=[1, 0, 2, 3, 4, 5]
+list1.append(11111)                       #list1의 index7에 11111를 추가
+del list1[1]                              #list1의 index1을 삭제
+list1.remove(3)                           #list1에서 3을 삭제
+list1[:3]                                 #list1에서 index 0부터3까지 나열
+list1[2:]                                 #list1에서 index 2부터 끝까지 나열
+list1[1]=20                               #list1에서 index 1을 int20으로 정정
+list1[:]                                  #list1을 전체나열
+
+#module math
+#import moduleName
+#math.ceil() : 입력한 숫자 이상의 최소의 정수출력
+#math.floor() : 입력한 숫자 이하의 최대의 정수출력
+#math.pow(3,4) : 3의4제곱
+#math.log(밑,수)
+#math.sqrt() : 미분
+import math
+math.floor()
+
+
+#다른 친구
+#abs() : 절댓값
+
+
+#str관련 함수
+str='my name is'
+str.capitalize()               #capitalize : 첫글자 대문자로
+'my name is'.capitalize().     #결과같음 단, ()안에 암것도 없어야함
+
+#str.count()  ()안에 'h'등 str 넣으면 몇번나왔는지 알려줌
+#str.find() ()안에 str넣으면 어느 index에 있는지 알려줌 첫번째=0
+
+#str.join()
+a=' '
+apple=('he','is','person')
+a.join(apple)
+he is person 
+
+
+
+
+
