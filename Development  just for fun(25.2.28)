@@ -1,0 +1,18 @@
+#계산기(곱셈)
+#first try    def mul(n1,n2):
+#               mul=n1*n2
+#               return mul
+
+
+
+#second
+def multiply():
+  try:
+    num1=float(input('enter number : '))
+    num2=float(input('enter number : '))
+    result=num1*num2
+    print(f'the result is {result})
+  except ValueError:
+    print('error')
+if __name__='__main__':
+  multiply()
