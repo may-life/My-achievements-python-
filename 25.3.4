@@ -1,0 +1,19 @@
+#new 
+#int(x) for x in input().split() : n개 입력받아 배열 만들기 [반복 가능 함수]를 x에 할당후 [int화] 이것을 반복
+number=[int(x) for x in input('enter a number : ').split()]
+print(f'the largest number is {max(number)}')
+print(f'the smallest number is {min(number)}')
+
+
+#로그인
+real_id='he is a man'
+real_password='she is a woman'
+user_id=input('ID : ')
+user_password=input('PASSWORD : ')
+if user_id==real_id and user_password==real_password:
+  print('log-in')
+else:
+  print('please check your ID/PASSWORD')        #개선사항 1. 아이디/패스워드란 같이 뜨게, 2. 다수의 아이디/패스워드 저장
+
+#로그인-1(개선사항 1 개선)
+
